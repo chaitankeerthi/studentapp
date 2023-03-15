@@ -1,0 +1,136 @@
+*
+{
+  margin:0;
+  padding:0;
+  font-family: sans-serif;
+}
+
+/* NavbarR.js */
+.navbar
+{
+  /* background-color: rgb(147, 139, 177); */
+  background-color: rgb(237, 80, 122);
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  padding: 15px 100px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+  z-index: 999;
+  position: sticky;
+  left: 0;
+  top: 0;
+  color: white;
+}
+.navbar .navbar-left{
+  width:60%;
+   display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar .navitem {  
+  font-size: 17px;
+  text-decoration: none;
+}
+.navbar button
+{
+  padding: 4px;
+}
+
+/* students */
+.students{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+
+}
+.studentslist
+{
+  display: flex;
+  flex-direction: column;
+  width:20%;
+  background-color: white;
+  box-shadow: 0 5px 30px rgba(0,0,0,0.1);
+}
+.studentslist .studentnames:hover{
+  background-color: rgb(239, 231, 231);
+  color:brown
+}
+.studentslist .studentnames .navlink
+{
+  text-decoration: none;
+  /* color:rgb(150, 80, 170) */
+  color: rgb(245, 121, 167);
+}
+.studentslist .studentnames .navlink:hover{
+  color:rgb(243, 66, 122);
+}
+.studentdata
+{
+  width:80%;
+  height: 88vh;
+  display:flex;
+  justify-content: center;
+  margin: 10% 20%;
+  position: fixed;
+
+
+/* studentdetails.js */
+
+}
+.studentinformation h3
+{
+  margin:0 0 20px 0;
+  text-align: center;
+}
+.studentinformation .studentdetails
+{
+  background-color: rgb(248, 83, 108);
+  width:350px;
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow:0 5px 30px rgba(0,0,0,0.1); ;
+}
+.studentdetails p{
+  padding: 5px 0 0 0;
+  color:white
+}
+
+/* login */
+
+.login
+{
+width:30%;
+padding:30px;
+margin:10% 33%;
+box-shadow: 0 5px 30px rgb(166, 158, 202);
+}
+.login input{
+  padding:3px
+}
+.login .button{
+  background-color: rgb(113, 98, 170);
+  color:white;
+  border: none;
+  padding: 10px 25px;
+  margin: 3% 0 0 37%
+  
+}
+/* Dashboard */
+.dashboard
+{
+  display: flex;
+justify-content: space-evenly;
+align-items: center;
+height:70vh
+}
+.dashboard div{
+  height: 20vh;
+  width:200px;
+  border-radius: 10px;
+  padding: 10px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ background-color:aquamarine
+}
